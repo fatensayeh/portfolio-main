@@ -55,29 +55,6 @@ export default function Journal() {
 
   const logged_in_content = (
     <div className="w-screen h-dvh bg-white flex">
-      <div
-        id="sidebar"
-        className="w-80 rounded flex flex-col items-start p-4 pt-8 bg-slate-100 gap-4 border-r-2 border-vscode-blue"
-      >
-        <button
-          href=""
-          className="text-vscode-blue/75 hover:text-vscode-blue/50 font-bold text-xl"
-        >
-          Carnet de notes
-        </button>
-        <button
-          href=""
-          className="text-vscode-blue/75 hover:text-vscode-blue/50 font-bold text-xl"
-        >
-          Agenda
-        </button>
-        <button
-          href=""
-          className="text-vscode-blue/75 hover:text-vscode-blue/50 font-bold text-xl"
-        >
-          Todo list
-        </button>
-      </div>
       <div className="flex">
         <div id="notes" className="flex p-8 gap-8 flex-wrap ">
           <button

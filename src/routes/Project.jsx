@@ -21,7 +21,7 @@ export default function Project() {
     const username = usernameInputRef.current.value;
 
     // Create new item
-    fetch("http://localhost:3001/users", {
+    await fetch("http://139.59.149.92:3001/users", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -50,7 +50,7 @@ export default function Project() {
     try {
       let auth = null;
 
-      await fetch("http://localhost:3001/user/" + email)
+      await fetch("http://139.59.149.92:3001/user/" + email)
         .then((res) => res.json())
         .then((user) => {
           auth = user;

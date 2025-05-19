@@ -124,5 +124,5 @@ app.delete('/notes/:id', (req, res) => {
 
 
 app.listen(3001, () => {
-  console.log('Server running on http://localhost:3001');
+  console.log('Server running on http://139.59.149.92:3001');
 });

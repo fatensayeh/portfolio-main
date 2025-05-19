@@ -38,7 +38,6 @@ export default function Navbar() {
           to={"/"}
           className="flex-shrink-0 transition ease-in-out hover:rotate-90"
         >
-          {logged_in && <p>logged in</p>}
           <img className="h-16 w-auto" src={logo} alt="Company Logo" />{" "}
         </Link>
         {/* Routes */}
