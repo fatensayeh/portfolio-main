@@ -1,8 +1,41 @@
-# React + Vite
+## Instructions pour accéder en remote (sur internet):
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visiter le lien suivant: http://139.59.149.92/
 
-Currently, two official plugins are available:
+## 8. Instructions d'Installation en local
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Cloner le dépôt** :
+    
+    ```bash
+    git clone https://github.com/fatensayeh/portfolio-main.git
+    ou récupérer le fichier zip 
+    ```
+    
+2. **Installation des dépendances** :
+    - Frontend :
+        
+        ```bash
+        cd chemin-vers-dossier/portfolio-main
+        npm install
+        npm run dev
+        
+        ```
+        
+3. **Configuration de la base de données** :
+    
+    Le backend utilise SQLite. Aucune configuration supplémentaire n'est nécessaire.
+    
+4. **Démarrage de l'application** :
+    - Backend :
+        
+        ```bash
+        cd chemin-vers-dossier/portfolio-main/service
+        node server.js
+        ```
+        
+    - Frontend :
+
+       ```bash
+       cd chemin-vers-dossier/portfolio-main
+       npm run dev
+       ```
